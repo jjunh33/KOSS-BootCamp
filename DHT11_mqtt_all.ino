@@ -40,7 +40,6 @@ void callback(char* topic, byte* payload, unsigned int uLen) {
   {
     pBuffer[i]=payload[i];
   }
-  pBuffer[i]='\0';
   Serial.println(pBuffer); // 1 or 2
   if(pBuffer[0]=='1')
   {
