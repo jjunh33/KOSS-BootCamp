@@ -1,5 +1,5 @@
-#include <ESP8266WiFi.h>
-#include <PubSubClient.h>
+#include <ESP8266WiFi.h> // Wifi 라이브러리 추가
+#include <PubSubClient.h> // MQTT client 라이브러리 
 #include "DHT.h" //DHT11 라이브러리 추가
 
 DHT dht(D3, DHT11); // D3번 핀에 연결된 DHT11센서를 dht라는 객체로 생성
