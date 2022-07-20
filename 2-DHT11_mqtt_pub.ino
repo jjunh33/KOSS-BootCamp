@@ -1,12 +1,12 @@
-#include <ESP8266WiFi.h>
-#include <PubSubClient.h>
-#include "DHT.h"//DHT11 라이브러리 추가
+#include <ESP8266WiFi.h> // Wifi 라이브러리 추가
+#include <PubSubClient.h> // MQTT client 라이브러리 추가
+#include "DHT.h"// DHT11 라이브러리 추가
 
 DHT dht(D3, DHT11);// D3번 핀에 연결된 DHT11센서를 dht라는 객체로 생성
 
 const char* ssid = "KMU_SW"; //사용하는 Wifi 이름
 const char* password = "kookminsw"; // 비밀번호
-const char* mqtt_server = "192.168.***.***"; //mqtt 서버 주소(라즈베리파이에서 ifconfig로 inet 주소 확인)
+const char* mqtt_server = "192.168.***.***"; // mqtt 서버 주소(라즈베리파이에서 ifconfig로 inet 주소 확인)
 const char* clientName = "030404Client"; // client 이름 (생일 추천)
 
 WiFiClient espClient; // 인터넷과 연결할 수 있는 client 생성
