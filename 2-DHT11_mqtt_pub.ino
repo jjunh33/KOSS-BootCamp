@@ -77,5 +77,5 @@ void loop() {
   Serial.println(message);
   client.publish("dht", message); // 만든 문자열을 mqtt 서버에 publish *토픽에 숫자 XXX
   
-  delay(3000); // 1초(1000ms) 주기
+  delay(3000); // 3초(3000ms) 주기
 }
