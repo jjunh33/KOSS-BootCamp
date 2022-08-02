@@ -26,6 +26,8 @@ DB에 데이터 넣는 실습을 안해보신 분은 우선 제것을 사용하�
 <br/>
 <br/>
 
+### MongoClient url 찾기!
+
 ![img](mongodb.png)
 
 Cluster0 옆에 있는 Connect 클릭 <br/>
@@ -35,4 +37,6 @@ Cluster0 옆에 있는 Connect 클릭 <br/>
 ```python
 client = MongoClient("<여기에 넣으세요!>")
 ```
+### Database 이름과 collections 이름 찾기!
+
 
