@@ -15,11 +15,11 @@ $ pip install dnspython
 <br/>
 ![img](mongodb.png)
 
-Cluster0 옆에 있는 Connect 클릭 
--> Connect your application 클릭 
+Cluster0 옆에 있는 Connect 클릭 <br/>
+-> Connect your application 클릭 <br/>
 -> mongodb+srv://yun1211:
 <span style="color:red">password</span>
-@cluster0.qypul.mongodb.net/<span style="color:red">\<dbname\></span>?retryWrites=true&w=majority과 같은 형태의 링크 복사
+@cluster0.qypul.mongodb.net/<span style="color:red">\<dbname\></span>?retryWrites=true&w=majority과 같은 형태의 링크 복사<br/>
 -> <password>를 자신의 비밀번호로 수정 & 
 
 
