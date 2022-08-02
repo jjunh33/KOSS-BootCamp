@@ -26,3 +26,5 @@ Cluster0 옆에 있는 Connect 클릭 <br/>
 ```python
 from pymongo import MongoClient
 ```
+
+  <span style="color:red">password</span>
