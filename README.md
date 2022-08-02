@@ -20,6 +20,7 @@ db = client['Sensor']
 for d, cnt in zip(db['sensors'].find(), range(10)):
     print(d['pm1'], d['pm10'])
 ```
+<br/>
 
 [MongoDB](https://account.mongodb.com/account/login)에 로그인
 
