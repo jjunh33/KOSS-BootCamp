@@ -5,7 +5,6 @@
 ```bash
 $ pip install pymongo
 ```
-
 ```bash
 $ pip install dnspython
 ```
