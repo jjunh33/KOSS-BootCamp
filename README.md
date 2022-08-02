@@ -39,4 +39,15 @@ client = MongoClient("<여기에 넣으세요!>")
 ```
 ### Database 이름과 collections 이름 찾기!
 
+![img](database.png)
 
+Connect의 왼쪽에 있는 Cluster0 클릭 <br/>
+-> Collections 클릭 <br/>
+-> 사진에 보이는 Sensor, test와 같은 것들이 데이터 베이스 이름
+```python
+db = client['<여기에 넣으세요!>']
+```
+-> 사진에 보이는 BME280, bme280, sensors와 같은 것들이 collections의 이름
+```python
+for d, cnt in zip(db['<여기에 넣으세요!>'].find(), range(10)):
+```
