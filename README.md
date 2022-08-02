@@ -51,3 +51,12 @@ db = client['<여기에 넣으세요!>']
 ```python
 for d, cnt in zip(db['<여기에 넣으세요!>'].find(), range(10)):
 ```
+### Key 값 찾기!
+
+![img](key.png)
+
+사진에 보이는 tmp, hum, alt 등등의 것들이 key값, 그리고 그 옆에 있는 값들이 value값
+
+```python
+    print(d['<여기에 넣으세요!-1>'], d['<여기에 넣으세요!-2>'], d['<여기에 넣으세요!-3>'])
+```
