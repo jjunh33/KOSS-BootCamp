@@ -34,6 +34,6 @@ Cluster0 옆에 있는 Connect 클릭 <br/>
 -> mongodb+srv://yun1211:\<password\>@cluster0.qypul.mongodb.net/\<dbname\>?retryWrites=true&w=majority과 같은 형태의 링크 복사<br/>
 -> \<password>를 자신의 비밀번호로 수정 & \<dbname\>을 사진의 Cluster0과 같은(대소문자 주의) 데이터베이스 이름으로 수정<br/>
 ```python
-client = MongoClient("<>")
+client = MongoClient("<여기에 넣으세요!>")
 ```
 
