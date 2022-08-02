@@ -25,6 +25,7 @@ for d, cnt in zip(db['sensors'].find(), range(10)):
 
 <br/>
 <br/>
+
 ![img](mongodb.png)
 
 Cluster0 옆에 있는 Connect 클릭 <br/>
