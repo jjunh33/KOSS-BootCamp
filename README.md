@@ -20,6 +20,7 @@ db = client['Sensor']
 for d, cnt in zip(db['sensors'].find(), range(10)):
     print(d['pm1'], d['pm10'])
 ```
+DB에 데이터 넣는 실습을 안해보신 분은 우선 제것을 사용하여 실습하셔도 좋습니다!
 <br/>
 
 [MongoDB](https://account.mongodb.com/account/login)에 로그인
